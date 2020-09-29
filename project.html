@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Trochut:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Playball&family=Trochut:wght@700&display=swap" rel="stylesheet">
+    <title>Artistic Blossom</title>
+
+    <style>
+ 
+        body{   
+            background: url("images/back4.jpg");
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: 'Balsamiq Sans', cursive;
+            width: 80%; 
+            background-repeat: inherit;
+            /* overflow:hidden; */
+            
+        }
+
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .mid{
+            /* border: 2px solid green; */
+            display: block;
+            width: 85%;
+            margin:30px 400px;
+        }
+
+        .right{
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position:absolute;
+            left:1520px;
+            top: 20px;
+        }
+
+        .navbar{
+            list-style:none; 
+            display: inline-block;  
+        }
+
+        .navbar li{
+            display: inline-block;
+        }
+
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            padding-left: 100px;
+        }
+
+        .navbar li a:hover{
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .navbar li a:visited{
+            color: rgb(94, 222, 245);
+            text-decoration: underline;
+        }
+
+        .left img{
+            height: 106px;
+        }
+
+        .btn{
+            margin: 10px 10px;
+            padding: 10px;
+            font-size: 24px;
+            background-color:transparent;
+            color: white;   
+            border-radius: 10px;
+            cursor: pointer 
+        }
+
+        .btn:hover{
+            background-color:rgb(66, 228, 115)
+        }
+
+        .container{
+            border: 6px solid white;
+            margin-left: 120px;
+            margin-top: 120px;
+            margin-bottom: 110px;
+            padding: 10px 10px;
+            width: 50%;
+            border-radius : 14px;
+            box-sizing: border-box;
+        }
+
+        h1{
+            font-family: 'Balsamiq Sans', cursive;
+            font-family: 'Trochut', cursive;
+            text-align: center; 
+            margin-bottom: 50px;
+        }
+
+        .form-group input{
+            text-align: center;
+            display: block;
+            border-radius: 14px;
+            font-size: 26px;
+            margin: 15px auto;
+            /* margin-right: 800px; */
+           
+            width: 50%;
+            font-family: 'Balsamiq Sans', cursive;
+            font-family: 'Playball', cursive;
+            font-family: 'Trochut', cursive;
+        }
+
+        #submit{
+            display: block;
+            margin: 45px auto;
+            width: 400px;
+        }
+
+        address{
+           
+            font-size: 18px;;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+    
+        <div class="left">
+            <img src="images/logo.png" alt="">
+         </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="project.html">Home</a></li>
+                <li><a href="@">About Us</a></li>
+                <li><a href="@">Services</a></li>
+                <li><a href="@">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">📞Call us now</button>
+            <button class="btn">💻Email us</button>
+        </div>
+
+    </header>    
+
+    <div class="container">
+        <h1>🎀Bookings Open!! &nbsp;Hurry Up!!🎀</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Occassion">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Mobile Number">
+            </div>
+
+            <div class="form-group">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Address">
+            </div>
+
+            <button id="submit" class="btn">Submit now</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <div class="foot">
+            <address>Visit us at: Society Road, Laksar, Haridwar, Uttarakhand, India, Earth, Mily Way, Universe</address>
+        </div>
+    </footer>
+</body>
+</html>
